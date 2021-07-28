@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    background-color:darkgray;
+    font-family:'Courier New', Courier, monospace;
+    color: azure;
+}
+
+.header-sec{
+    height:20vh;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.Nav-bar{
+    position: absolute;
+    left: 40px;
+    padding-left: 2em;
+    padding-right: 2em;
+    align-items: center;
+    font-size: large;
+}
+.Nav-bar ul{
+    list-style-type: None;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+.Nav-bar ul li{
+    display: inline;
+    padding: 1em;
+    
+}
+.Nav-bar ul li a{
+    text-decoration: none;
+    color: azure;
+    padding-right: 40px;
+    
+}
+.Nav-bar ul li a:hover{
+    color:lightgray;
+    
+}
+
+.signup{
+    background-color: darkgrey;
+    align-items: center;
+    color: azure;
+    width: 9vw;
+    padding: 1em;
+    position: absolute;
+    right: 60px;
+    border:none;
+    border-radius: 5px;
+}
+.signup:hover{
+    background-color: antiquewhite;
+}
+.hero-unit{
+    height:80vh;
+    background:url('/images/bg.jpeg');
+    text-align: center;
+}
+.hero-unit-mask{
+    height: 80vh;
+    background-color: rgba(0,0,0,0.2);
+}
+.hero-unit h1{
+    padding-top:20vh;
+    margin:0;
+    margin-bottom: 0.5em;
+    font-size: 4em;
+    color:whitesmoke;
+
+}
+.hero-unit p{
+    margin:0;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    color:lightcyan;
+}
+.hero-unit a{
+    text-decoration:None ;
+    background-color: lightgray;
+    color: black;
+    padding: 1em;
+    display: block;
+    border-radius: 5px;
+    width: 12vw;
+    margin: 0 auto;
+
+}
+.hero-unit a:hover{
+    color: azure;
+    background-color: darkgrey;
+
+}
+.Project{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:whitesmoke;
+    padding-bottom: 2em;
+}
+.Project h2{
+    text-align: center;
+    margin: 2em auto;
+}
+.Project-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.names{
+    background-color: gray;
+    color:black;
+    width:25vw;
+    text-align: center;
+    box-shadow: 5px 5px 25px gray;
+
+}
+.names a{
+    text-decoration:None ;
+    background-color: lightgray;
+    color: black;
+    padding: 1em;
+    display: block;
+    width: 6vw;
+    margin: 0 auto;
+}
+.names a:hover{
+    color: azure;
+    background-color: darkgrey;
+
+}
+.footer{
+    height: 12vh;
+    text-align: center;
+    background-color: black;
+    border:2px solid gray;
+    padding-bottom: 2em;
+}
